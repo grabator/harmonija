@@ -157,6 +157,46 @@ window.VIKENDICA = {
     'nav.about': { bs: 'O nama', en: 'About' }
   },
 
+  /* vrijeme uživo na stranici (open-meteo.com, besplatno). Koordinate: Babanovac, Vlašić */
+  weather: { lat: 44.29, lon: 17.65 },
+
+  /* PROVJERITI sa vlasnikom: šta tačno ulazi u doručak i u koliko sati */
+  breakfast: {
+    text: { bs: 'Dan na planini počinje dobrim doručkom. Spremamo ga svako jutro, sa domaćim proizvodima i toplom kafom, dok gledate snijeg kroz prozor.', en: 'A mountain day starts with a good breakfast. We make it every morning with local produce and hot coffee, while you watch the snow outside.' },
+    items: [
+      { bs: 'Domaća jaja, pripremljena kako volite', en: 'Farm eggs, cooked the way you like' },
+      { bs: 'Vlašićki sir, kajmak i suhomesnato', en: 'Vlašić cheese, kajmak and cured meats' },
+      { bs: 'Svjež hljeb, džem i med', en: 'Fresh bread, jam and honey' },
+      { bs: 'Kafa, čaj i topla čokolada', en: 'Coffee, tea and hot chocolate' }
+    ],
+    time: { bs: 'Doručak svako jutro od 8 do 10 h', en: 'Breakfast every morning, 8 to 10 am' },
+    note: { bs: 'Imate posebne želje (vegetarijanski, za djecu)? Samo napišite u upitu.', en: 'Special requests (vegetarian, for kids)? Just mention it in your inquiry.' }
+  },
+
+  /* PROVJERITI: tačna lokacija za navigaciju (najbolje koordinate sa Google Maps pina) */
+  directions: {
+    destination: 'Vlašić Skakaonica, Babanovac',
+    steps: [
+      { icon: 'car', text: { bs: 'Iz Travnika: put prema Turbetu, pa skretanje za Vlašić. Oko 30 minuta vožnje do Babanovca.', en: 'From Travnik: head towards Turbe, then turn off for Vlašić. About 30 minutes to Babanovac.' } },
+      { icon: 'road', text: { bs: 'Iz Sarajeva oko 1,5 do 2 sata (preko Zenice i Travnika), iz Banje Luke oko 2 sata (preko Skender Vakufa ili Travnika).', en: 'From Sarajevo about 1.5 to 2 hours (via Zenica and Travnik), from Banja Luka about 2 hours.' } },
+      { icon: 'ski', text: { bs: 'Na Babanovcu pratite put prema skakaonici. Harmonija je par minuta hoda od staze.', en: 'In Babanovac follow the road to the ski jump. Harmonija is a short walk from the slope.' } },
+      { icon: 'parking', text: { bs: 'Besplatan parking za goste je ispred objekta.', en: 'Free guest parking in front of the house.' } }
+    ],
+    tip: { bs: 'Zimi obavezno zimske gume, a lanci u autu dobro dođu. Ako niste sigurni za stanje puta, nazovite nas prije polaska.', en: 'In winter, winter tyres are a must and snow chains are handy. Not sure about road conditions? Call us before you set off.' }
+  },
+
+  /* sekcija "Pratite nas na Instagramu" (slike vode na profil iz contact.instagram) */
+  instagramFeed: {
+    images: [
+      { image: 'assets/img/objekat-zima.webp', label: { bs: 'Harmonija zimi', en: 'Harmonija in winter' } },
+      { image: 'assets/img/kamin.webp', label: { bs: 'Kamin', en: 'Fireplace' } },
+      { image: 'assets/img/sanjke.webp', label: { bs: 'Sanjkanje', en: 'Sledding' } },
+      { image: 'assets/img/salon.webp', label: { bs: 'Salon', en: 'Lounge' } },
+      { image: 'assets/img/soba-1.webp', label: { bs: 'Soba', en: 'Room' } },
+      { image: 'assets/img/dnevni-boravak.webp', label: { bs: 'Dnevni boravak', en: 'Living room' } }
+    ]
+  },
+
   reviews: [],
   faq: []
 };
