@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="bs" data-season="winter">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harmonija · Vlašić | Udoban smještaj na Vlašiću</title>
+<meta name="description" content="Harmonija na Vlašiću: dvokrevetne, četverokrevetne i porodične sobe, doručak, Wi-Fi i parking, par minuta od skakaonice. Pošalji upit na Viber.">
+<!-- DEMO: ukloni ovaj red za pravog klijenta (vidi README, "SEO") -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#4a4036">
+<link rel="canonical" href="https://harmonija.pages.dev/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Harmonija · Vlašić">
+<meta property="og:description" content="Udoban smještaj na Vlašiću. Vaš odmor počinje ovdje.">
+<meta property="og:image" content="https://harmonija.pages.dev/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://harmonija.pages.dev/">
+<meta property="og:locale" content="bs_BA">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preload" href="assets/img/hero-poster.jpg" as="image">
+<link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Harmonija Vlašić",
+  "description": "Smještaj na Vlašiću: dvokrevetne, četverokrevetne i porodične sobe, doručak, Wi-Fi i parking.",
+  "url": "https://harmonija.pages.dev/",
+  "image": "https://harmonija.pages.dev/assets/og.jpg",
+  "telephone": "+387 61 216 939",
+  "address": { "@type": "PostalAddress", "addressLocality": "Vlašić", "addressRegion": "Srednjobosanski kanton", "addressCountry": "BA" },
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Doručak", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Parking", "value": true }
+  ],
+  "sameAs": ["https://instagram.com/harmonija.vlasic"]
+}
+</script>
+<script>
+  /* sezona prije crtanja, da ne trepne pogrešna boja */
+  (function () {
+    try {
+      var s = localStorage.getItem('harmonija-season');
+      if (!s) { var m = new Date().getMonth() + 1; s = 'winter'; }
+      document.documentElement.setAttribute('data-season', s);
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Preskoči na sadržaj</a>
+<header class="topbar" id="topbar"></header>
+<section class="hero" id="top" aria-label="Harmonija"></section>
+<main id="main" tabindex="-1">
+  <noscript><div class="wrap" style="padding:120px 0"><h1>Harmonija · Vlašić</h1><p>Za pun prikaz stranice uključi JavaScript. Kontakt: +387 61 216 939 (Viber, WhatsApp).</p></div></noscript>
+</main>
+<footer class="foot" id="foot"></footer>
+<nav class="dock" id="dock" aria-label="Brzi kontakt"></nav>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galerija" hidden></div>
+
+<script src="data/vikendica.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/scenes.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
