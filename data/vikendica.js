@@ -158,7 +158,7 @@ window.VIKENDICA = {
   },
 
   /* vrijeme uživo na stranici (open-meteo.com, besplatno). Koordinate: Babanovac, Vlašić */
-  weather: { lat: 44.29, lon: 17.65 },
+  weather: { lat: 44.29, lon: 17.65, title: { bs: 'Trenutno na Vlašiću', en: 'Right now on Vlašić' } },
 
   /* PROVJERITI sa vlasnikom: šta tačno ulazi u doručak i u koliko sati */
   breakfast: {
