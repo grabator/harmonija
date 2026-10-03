@@ -22,12 +22,21 @@ window.VIKENDICA = {
   },
   credit: null,
 
-  /* prvi ekran: video (pušta se jednom i stane na zadnjem kadru) i animirani logo */
+  /* prvi ekran: video u krug i animirani logo */
   heroVideo: 'assets/img/hero.mp4',
   heroPoster: 'assets/img/hero-poster.jpg',
   heroVideoWebm: 'assets/img/hero.webm',
-  heroVideoLoop: false,
+  heroVideoLoop: true,
   heroLogo: { mark: 'assets/img/mark-white.png', word: 'assets/img/word-white.png' },
+  /* logo u zaglavlju (bijeli preko videa, tamni kad se skrola) i footeru */
+  brandLogo: { light: 'assets/img/brand-light.png', dark: 'assets/img/brand-dark.png' },
+  /* istaknuto na prvom ekranu */
+  heroChips: [
+    { icon: 'coffee', label: { bs: 'Doručak', en: 'Breakfast' } },
+    { icon: 'wifi', label: { bs: 'Wi-Fi', en: 'Wi-Fi' } },
+    { icon: 'parking', label: { bs: 'Parking', en: 'Parking' } },
+    { icon: 'ski', label: { bs: 'Blizu staze', en: 'Near the slopes' } }
+  ],
 
   /* boje u stilu njihovog brenda (bež, taupe) */
   theme: {
